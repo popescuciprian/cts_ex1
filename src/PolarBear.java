@@ -1,8 +1,7 @@
 public class PolarBear extends Bear {
-    private int POLAR_BEAR_SPEED;
+    private final int POLAR_BEAR_SPEED = 80;
 
-    public PolarBear(int POLAR_BEAR_SPEED) {
-        this.POLAR_BEAR_SPEED = POLAR_BEAR_SPEED;
+    public PolarBear() {
     }
 
     @Override

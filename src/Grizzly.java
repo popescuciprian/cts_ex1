@@ -1,8 +1,7 @@
 public class Grizzly extends Bear {
-    private int GRIZZLY_SPEED;
+    private final int GRIZZLY_SPEED = 90;
 
-    public Grizzly(int GRIZZLY_SPEED) {
-        this.GRIZZLY_SPEED = GRIZZLY_SPEED;
+    public Grizzly() {
     }
 
     @Override
