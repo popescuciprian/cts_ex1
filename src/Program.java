@@ -8,7 +8,8 @@ public class Program {
         System.out.println(runner);
         runner = new Human();
         System.out.println(runner);
-        runner = new Human(15);
+        ((Human)runner).setAge(20);
         System.out.println(runner);
+        System.out.println(runner.getSpeed());
     }
 }

@@ -10,10 +10,6 @@ public class Human implements Runner {
         this.age = age;
     }
 
-    public Human(int age) {
-        this.age = age;
-    }
-
     public Human() {
         this.age = 0;
     }
