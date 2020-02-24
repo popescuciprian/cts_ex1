@@ -14,6 +14,10 @@ public class Human implements Runner {
         this.age = age;
     }
 
+    public Human() {
+        this.age = 0;
+    }
+
     @Override
     public int getSpeed() {
         if (this.age < 50)
