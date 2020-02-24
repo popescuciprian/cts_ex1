@@ -1,15 +1,19 @@
 public class Grizzly extends Bear {
+    private int GRIZZLY_SPEED;
 
-    public Grizzly() {
+    public Grizzly(int GRIZZLY_SPEED) {
+        this.GRIZZLY_SPEED = GRIZZLY_SPEED;
     }
 
     @Override
     public String toString() {
-        return "Grizzly{}";
+        return "Grizzly{" +
+                "GRIZZLY_SPEED=" + GRIZZLY_SPEED +
+                '}';
     }
 
     @Override
     public int getSpeed() {
-        return super.getSpeed();
+        return this.GRIZZLY_SPEED;
     }
 }
