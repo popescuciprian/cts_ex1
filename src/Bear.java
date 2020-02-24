@@ -1,4 +1,4 @@
-public class Bear implements Runner{
+public abstract class Bear implements Runner{
     @Override
     public String toString() {
         return "Bear{}";
@@ -7,8 +7,4 @@ public class Bear implements Runner{
     public Bear() {
     }
 
-    @Override
-    public int getSpeed() {
-        return 0;
-    }
 }
